@@ -1,7 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ashans>
   <append xpath="/recipes">
-    <recipe name="ammochest_ash" count="1" craft_area="workbench" craft_time="25" tags="workbenchCrafting">
+    <recipe name="ammochest_ash_2x2" count="1" craft_area="workbench" craft_time="25" tags="workbenchCrafting">
+		<ingredient name="resourceForgedIron" count="25" />
+		<ingredient name="resourceWood" count="50" />
+	</recipe>
+  </append>
+
+  <append xpath="/recipes">
+    <recipe name="ammochest_ash_1x2" count="1" craft_area="workbench" craft_time="25" tags="workbenchCrafting">
 		<ingredient name="resourceForgedIron" count="25" />
 		<ingredient name="resourceWood" count="50" />
 	</recipe>

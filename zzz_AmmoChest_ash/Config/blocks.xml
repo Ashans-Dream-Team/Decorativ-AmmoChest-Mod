@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ashans>
 	<append xpath="/blocks">
-		<block name="ammochest_ash">
-			<property name="CustomIcon" value="ammochest_ash" />
+		<block name="ammochest_ash_2x2">
+			<property name="CustomIcon" value="AmmoChest_2x2_ico" />
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest.ash?AmmoChest_4.prefab"/>
 			<!--<property name="Model" value="#@modfolder:Resources/Subquake_Vehicles.ulm?Subquake_BicycleHorizontal01d0.prefab"/> -->
@@ -35,14 +35,13 @@
 			<property name="Place" value="TowardsPlacer" />
 		</block>
 
-		<block name="ammochest_ash_vertikal">
-			<property name="CustomIcon" value="ammochest_ash_vertikal" />
+		<block name="ammochest_ash_1x2">
+			<property name="CustomIcon" value="AmmoChest_1x2_ico" />
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
-			<property name="Model" value="#@modfolder:Resources/AmmoChest.ash?AmmoChest_5.prefab"/>
+			<property name="Model" value="#@modfolder:Resources/AmmoChest.ash?AmmoChest_1x2.prefab"/>
 			<!--<property name="Model" value="#@modfolder:Resources/Subquake_Vehicles.ulm?Subquake_BicycleHorizontal01d0.prefab"/> -->
 			<!--<property name="UnlockedBy" value="ashanWorkbenchSchematic" />-->
 			<property name="LootList" value="667" />
-			
 			<property name="CreativeMode" value="Player" />
 			<property name="Tags" value="door" />
 			<property name="DisplayType" value="blockHardenedMulti" />
