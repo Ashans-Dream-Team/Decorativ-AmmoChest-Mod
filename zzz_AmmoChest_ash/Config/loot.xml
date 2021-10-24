@@ -1,6 +1,26 @@
 <ashans>
 	<append xpath="/lootcontainers">
-		<lootcontainer id="667" count="0" size="5,5" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+		<lootcontainer id="1001" count="0" size="10,1" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+			<!--<item name="cobweb" count="1,2" />-->
+		</lootcontainer>
+
+		<lootcontainer id="1002" count="0" size="10,2" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+			<!--<item name="cobweb" count="1,2" />-->
+		</lootcontainer>
+
+		<lootcontainer id="1003" count="0" size="10,3" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+			<!--<item name="cobweb" count="1,2" />-->
+		</lootcontainer>
+
+		<lootcontainer id="1004" count="0" size="10,4" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+			<!--<item name="cobweb" count="1,2" />-->
+		</lootcontainer>
+
+		<lootcontainer id="1005" count="0" size="10,5" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+			<!--<item name="cobweb" count="1,2" />-->
+		</lootcontainer>
+
+		<lootcontainer id="1006" count="0" size="10,6" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
 			<!--<item name="cobweb" count="1,2" />-->
 		</lootcontainer>
 	</append>
