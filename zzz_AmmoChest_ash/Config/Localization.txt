@@ -1,0 +1,5 @@
+Key,English,Russian
+
+ammochest_ash,Ammo Chest,Ашанский ящик для патронов
+ammochest_ash_Desc,"Ammo Chest from Ashan's Team","Ящик для патронов от Ашанов"
+ammochest_ash_vertikal,Ammo Chest,Ашанский ящик для патронов

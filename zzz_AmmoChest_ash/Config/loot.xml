@@ -1,0 +1,7 @@
+<ashans>
+	<append xpath="/lootcontainers">
+		<lootcontainer id="667" count="0" size="5,5" sound_open="UseActions/open_chest" sound_close="UseActions/open_chest" loot_quality_template="qualBaseTemplate">
+			<!--<item name="cobweb" count="1,2" />-->
+		</lootcontainer>
+	</append>
+</ashans>

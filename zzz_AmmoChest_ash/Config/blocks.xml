@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ashans>
+	<append xpath="/blocks">
+		<block name="ammochest_ash">
+			<property name="CustomIcon" value="ammochest_ash" />
+			<property name="DescriptionKey" value="ammochest_ash_Desc" />
+			<property name="Model" value="#@modfolder:Resources/AmmoChest.ash?AmmoChest_4.prefab"/>
+			<!--<property name="Model" value="#@modfolder:Resources/Subquake_Vehicles.ulm?Subquake_BicycleHorizontal01d0.prefab"/> -->
+			<!--<property name="UnlockedBy" value="ashanWorkbenchSchematic" />-->
+			<property name="LootList" value="667" />
+			
+			<property name="CreativeMode" value="Player" />
+			<property name="Tags" value="door" />
+			<property name="DisplayType" value="blockHardenedMulti" />
+			<property name="Material" value="MwoodReinforced" />
+			<property name="MaxDamage" value="500" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="ModelOffset" value="0,0,0" />
+			<property name="MultiBlockDim" value="2,2,2" />
+			<property name="AllowAllRotations" value="false" />
+			<property name="Path" value="solid" />
+			<property name="Class" value="Loot" />
+			<property class="RepairItems">
+				<property name="resourceWood" value="50" />
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="2,8" tag="salvageHarvest" />
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
+			<property name="EconomicValue" value="500" />
+			<property name="FilterTags" value="floot,ffurniture" />
+			<property name="Place" value="TowardsPlacer" />
+		</block>
+
+		<block name="ammochest_ash_vertikal">
+			<property name="CustomIcon" value="ammochest_ash_vertikal" />
+			<property name="DescriptionKey" value="ammochest_ash_Desc" />
+			<property name="Model" value="#@modfolder:Resources/AmmoChest.ash?AmmoChest_5.prefab"/>
+			<!--<property name="Model" value="#@modfolder:Resources/Subquake_Vehicles.ulm?Subquake_BicycleHorizontal01d0.prefab"/> -->
+			<!--<property name="UnlockedBy" value="ashanWorkbenchSchematic" />-->
+			<property name="LootList" value="667" />
+			
+			<property name="CreativeMode" value="Player" />
+			<property name="Tags" value="door" />
+			<property name="DisplayType" value="blockHardenedMulti" />
+			<property name="Material" value="MwoodReinforced" />
+			<property name="MaxDamage" value="500" />
+			<property name="Shape" value="ModelEntity" />
+			<property name="ModelOffset" value="0,0,0" />
+			<property name="MultiBlockDim" value="1,2,2" />
+			<property name="AllowAllRotations" value="false" />
+			<property name="Path" value="solid" />
+			<property name="Class" value="Loot" />
+			<property class="RepairItems">
+				<property name="resourceWood" value="50" />
+			</property>
+			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
+			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
+			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
+			<drop event="Destroy" count="0" />
+			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
+			<drop event="Destroy" name="resourceScrapIron" count="2,8" tag="salvageHarvest" />
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
+			<property name="EconomicValue" value="500" />
+			<property name="FilterTags" value="floot,ffurniture" />
+			<property name="Place" value="TowardsPlacer" />
+		</block>		
+	</append>
+    
+</ashans>
