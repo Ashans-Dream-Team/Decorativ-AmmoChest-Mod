@@ -1,0 +1,21 @@
+
+<?xml version="1.0" encoding="UTF-8"?>
+<items>
+
+  <append xpath="/items">
+    <item name="resourceChestHinge">
+      <property name="CustomIcon" value=""/>
+      <property name="CreativeMode" value="Player"/>
+	  <property name="HoldType" value="45"/>
+	  <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	  <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	  <property name="Material" value="matMisc"/>
+	  <property name="Stacknumber" value="10"/> <!-- STK resource -->
+	  <property name="EconomicValue" value="12"/>
+	  <property name="Group" value="Resources"/>
+	  <property name="RepairTime" value="1"/>
+	  <property name="RepairAmount" value="800"/>
+    </item>
+  </append> 
+
+</items>
