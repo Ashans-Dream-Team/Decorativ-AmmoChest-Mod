@@ -7,6 +7,13 @@
 	  <property name="forge_category" value="iron"/>
 	  <property name="Experience" value="10"/>
     </material>
+
+    <material id="MresourceWoodPlankChest">
+	  <property name="damage_category" value="wood"/>
+	  <property name="surface_category" value="wood"/>
+	  <property name="forge_category" value="iron"/>
+	  <property name="Experience" value="10"/>
+    </material>
   </append>
 
 </materials>

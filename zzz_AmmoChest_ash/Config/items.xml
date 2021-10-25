@@ -13,6 +13,18 @@
 	  <property name="EconomicValue" value="15"/>
 	  <property name="Group" value="Resources"/>
     </item>
+
+	<item name="resourceWoodPlankChest">
+      <property name="CustomIcon" value="resourceWoodPlankChest"/>
+      <property name="CreativeMode" value="Player"/>
+	  <property name="HoldType" value="45"/>
+	  <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+	  <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+	  <property name="Material" value="MresourceWoodPlankChest"/>
+	  <property name="Stacknumber" value="5"/>
+	  <property name="EconomicValue" value="10"/>
+	  <property name="Group" value="Resources"/>
+    </item>
   </append> 
 
 </ashansitems>
