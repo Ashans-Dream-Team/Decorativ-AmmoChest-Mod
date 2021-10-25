@@ -4,7 +4,7 @@
     <recipe name="ammochest_ash_1x2_1" count="1" craft_area="workbench" craft_time="50" tags="workbenchCrafting">
 		<ingredient name="resourceMetalPipe" count="2" />
 		<ingredient name="resourceWoodPlankChest" count="6" />
-		<ingredient name="resourceMetalChestParts" count="8" />
+		<ingredient name="resourceMetalChestParts" count="10" />
 	</recipe>
 
     <recipe name="resourceMetalPipe" count="1" craft_area="forge" tags="perkAdvancedEngineering"> <!-- Пока не решил к кокому перку привязывать и привязывать вообще, по умолчанию к мерку Advanced Engineering -->

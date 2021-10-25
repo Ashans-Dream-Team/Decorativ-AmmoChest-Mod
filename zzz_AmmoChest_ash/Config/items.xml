@@ -27,7 +27,7 @@
     </item>
 
 	<item name="resourceMetalChestParts">
-      <property name="CustomIcon" value=""/>
+      <property name="CustomIcon" value="resourceMetalChestParts"/>
       <property name="CreativeMode" value="Player"/>
 	  <property name="HoldType" value="45"/>
 	  <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
