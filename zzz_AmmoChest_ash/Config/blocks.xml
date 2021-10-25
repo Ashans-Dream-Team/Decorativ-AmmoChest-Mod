@@ -36,13 +36,11 @@
 
 			  <property class="UpgradeBlock">
 		        <property name="ToBlock" value="ammochest_ash_1x2_2"/>
-		        <property name="Item" value="resourceWood"/>
-		        <property name="ItemCount" value="100"/>
-				<property name="Item" value="resourceForgedSteel"/>
-		        <property name="ItemCount" value="20"/>
+		        <property name="Item" value="ammochest_ash_1x2_1"/>
+		        <property name="ItemCount" value="1"/>
 		       <property name="UpgradeHitCount" value="6"/>
 	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_metal"/>
+			 <property name="CustomUpgradeSound" value="place_block_wood"/>
 		</block>
 
 		<block name="ammochest_ash_1x2_2">
@@ -85,7 +83,7 @@
 		        <property name="ItemCount" value="20"/>
 		       <property name="UpgradeHitCount" value="6"/>
 	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_metal"/>
+			 <property name="CustomUpgradeSound" value="place_block_wood"/>
 		      
 		</block>
 
@@ -129,7 +127,7 @@
 		        <property name="ItemCount" value="20"/>
 		       <property name="UpgradeHitCount" value="6"/>
 	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_metal"/>
+			 <property name="CustomUpgradeSound" value="place_block_wood"/>
 		</block>
 
 		<block name="ammochest_ash_1x2_4">
@@ -172,7 +170,7 @@
 		        <property name="ItemCount" value="20"/>
 		       <property name="UpgradeHitCount" value="6"/>
 	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_metal"/>
+			 <property name="CustomUpgradeSound" value="place_block_wood"/>
 		</block>
 
 		<block name="ammochest_ash_1x2_5">
@@ -215,7 +213,7 @@
 		        <property name="ItemCount" value="20"/>
 		       <property name="UpgradeHitCount" value="6"/>
 	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_metal"/>
+			 <property name="CustomUpgradeSound" value="place_block_wood"/>
 		</block>
 
 		<block name="ammochest_ash_1x2_6">
