@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<materials>
+  <append xpath="/materials">
+    <material id="MresourceChestHinge">
+	  <property name="damage_category" value="metal"/>
+	  <property name="surface_category" value="metal"/>
+	  <property name="forge_category" value="iron"/>
+	  <property name="Experience" value="10"/>
+    </material>
+  </append>
+
+</materials>
