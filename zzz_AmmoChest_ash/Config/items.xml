@@ -39,4 +39,7 @@
     </item>
   </append> 
 
+  <append xpath="/items/item[@name='meleeToolRepairT1ClawHammer']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ammochest_ash_1x2_1</append>
+  <append xpath="/items/item[@name='meleeToolRepairT3Nailgun']/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,ammochest_ash_1x2_1</append>
+
 </ashansitems>

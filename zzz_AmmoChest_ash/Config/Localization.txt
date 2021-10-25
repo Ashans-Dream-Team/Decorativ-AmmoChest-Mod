@@ -2,12 +2,12 @@ Key,English,Russian
 
 
 ammochest_ash_Desc,"Ammo Chest from Ashan's Team","Ящик для патронов от Ашанов. Ящик можно проапгрейдить и увеличить количество слотов хранения, для этого вам понадобится 100 дерева, 20 стали и хороший молоток."
-ammochest_ash_1x2_1,Ammo Chest 10x1,Ашанский ящик для патронов 10x1
-ammochest_ash_1x2_2,Ammo Chest 10x2,Ашанский ящик для патронов 10x2
-ammochest_ash_1x2_3,Ammo Chest 10x3,Ашанский ящик для патронов 10x3
-ammochest_ash_1x2_4,Ammo Chest 10x4,Ашанский ящик для патронов 10x4
-ammochest_ash_1x2_5,Ammo Chest 10x5,Ашанский ящик для патронов 10x5
-ammochest_ash_1x2_6,Ammo Chest 10x6,Ашанский ящик для патронов 10x6
-resourceChestHinge,Chest Hinge, Петля для Ашанского ящика для патронов
-resourceWoodPlankChest,Chest Wood Plank, Деревянные части для Ашанского ящика для патронов
-resourceMetalChestParts,Chest Metal Parts, Металлические части для Ашанского ящика для патронов
+ammochest_ash_1x2_1,"Ammo Chest from Ashan's Team Chest 10x1",Ашанский ящик для патронов 10x1
+ammochest_ash_1x2_2,"Ammo Chest from Ashan's Team Chest 10x2",Ашанский ящик для патронов 10x2
+ammochest_ash_1x2_3,"Ammo Chest from Ashan's Team Chest 10x3",Ашанский ящик для патронов 10x3
+ammochest_ash_1x2_4,"Ammo Chest from Ashan's Team Chest 10x4",Ашанский ящик для патронов 10x4
+ammochest_ash_1x2_5,"Ammo Chest from Ashan's Team Chest 10x5",Ашанский ящик для патронов 10x5
+ammochest_ash_1x2_6,"Ammo Chest from Ashan's Team Chest 10x6",Ашанский ящик для патронов 10x6
+resourceChestHinge,Chest Hinge,Петля для Ашанского ящика для патронов
+resourceWoodPlankChest,Chest Wood Plank,Деревянные части для Ашанского ящика для патронов
+resourceMetalChestParts,Chest Metal Parts,Металлические части для Ашанского ящика для патронов
