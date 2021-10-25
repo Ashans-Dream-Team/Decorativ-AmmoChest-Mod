@@ -5,6 +5,7 @@
 		<ingredient name="resourceChestHinge" count="2" />
 		<ingredient name="resourceWoodPlankChest" count="6" />
 		<ingredient name="resourceMetalChestParts" count="10" />
+		<ingredient name="resourceNail" count="50" />
 	</recipe>
 
     <recipe name="resourceChestHinge" count="1" craft_area="forge" tags="perkAdvancedEngineering"> <!-- Пока не решил к кокому перку привязывать и привязывать вообще, по умолчанию к мерку Advanced Engineering -->
@@ -13,6 +14,8 @@
 
 	<recipe name="resourceWoodPlankChest" count="1" craft_area="workbench" craft_time="15" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="25" />
+		<ingredient name="resourcePaint" count="10" />
+
 	</recipe>
 
 	<recipe name="resourceMetalChestParts" count="2" craft_area="forge" craft_time="35" tags="perkAdvancedEngineering">
