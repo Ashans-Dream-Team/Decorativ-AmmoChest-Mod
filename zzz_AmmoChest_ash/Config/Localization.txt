@@ -10,4 +10,4 @@ ammochest_ash_1x2_5,"Ammo Chest from Ashan's Team Chest 10x5",Ашанский �
 ammochest_ash_1x2_6,"Ammo Chest from Ashan's Team Chest 10x6",Ашанский ящик для патронов 10x6
 resourceChestHinge,Chest Hinge,Петля для Ашанского ящика для патронов
 resourceWoodPlankChest,Chest Wood Plank,Деревянные части для Ашанского ящика для патронов
-resourceMetalChestParts,Chest Metal Parts,Металлические части для Ашанского ящика для патронов
+resourceMetalChestParts,Chest Metal Parts,Металлические части для Ашанского ящика для патроноВ
