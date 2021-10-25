@@ -1,6 +1,8 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ashansresipes>
+
   <append xpath="/recipes">
+  
     <recipe name="ammochest_ash_1x2_1" count="1" craft_area="workbench" craft_time="50" tags="workbenchCrafting">
 		<ingredient name="resourceChestHinge" count="2" />
 		<ingredient name="resourceWoodPlankChest" count="6" />
@@ -8,18 +10,27 @@
 		<ingredient name="resourceNail" count="50" />
 	</recipe>
 
-    <recipe name="resourceChestHinge" count="1" craft_area="forge" tags="perkAdvancedEngineering"> <!-- Пока не решил к кокому перку привязывать и привязывать вообще, по умолчанию к мерку Advanced Engineering -->
-	    <ingredient name="resourceForgedSteel" count="20"/>
-    </recipe>
-
 	<recipe name="resourceWoodPlankChest" count="1" craft_area="workbench" craft_time="15" tags="workbenchCrafting">
 		<ingredient name="resourceWood" count="25" />
 		<ingredient name="resourcePaint" count="10" />
 
 	</recipe>
 
-	<recipe name="resourceMetalChestParts" count="2" craft_area="forge" craft_time="35" tags="perkAdvancedEngineering">
-		<ingredient name="resourceForgedSteel" count="20" />
+	<recipe name="resourceMetalChestParts" count="2" material_based="true" craft_area="forge" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+		<ingredient name="unit_iron" count="400"/>
+		<ingredient name="unit_clay" count="200"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="unit_clay,unit_iron"/>
+		</effect_group>
 	</recipe>
+
+	<recipe name="resourceChestHinge" count="1" material_based="true" craft_area="forge" tags="perkAdvancedEngineering" craft_tool="toolForgeCrucible">
+		<ingredient name="unit_iron" count="200"/>
+		<ingredient name="unit_clay" count="100"/>
+		<effect_group>
+			<passive_effect name="CraftingIngredientCount" level="0,1,2,3,4" operation="perc_add" value=".5,.5,.5,.3,.15" tags="unit_clay,unit_iron"/>
+		</effect_group>
+	</recipe>
+
   </append>
 </ashansresipes>
