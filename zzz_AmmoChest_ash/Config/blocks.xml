@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ashans>
 	<append xpath="/blocks">
-		<block name="ammochest_ash_1x2_1">
+		<block name="ammochest_ash_master">
 			<property name="CustomIcon" value="AmmoChest_1x2_1_ico" />
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (1).prefab"/>
 			<property name="LootList" value="1001" />
 			
-			<property name="CreativeMode" value="Player" />
+			<property name="CreativeMode" value="None" />
 			<property name="Tags" value="door" />
 			<property name="DisplayType" value="blockHardenedMulti" />
 			<property name="Material" value="MwoodReinforced" />
@@ -42,258 +42,93 @@
 			<property name="EconomicValue" value="500" />
 			<property name="FilterTags" value="floot,ffurniture" />
 			<property name="Place" value="TowardsPlacer" />
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+		</block>
+		
+		<block name="ammochest_ash_1x2_1">
+			<property name="Extends" value="ammochest_ash_master"/>
+			<property name="CreativeMode" value="Player" />
+			<property name="CustomIcon" value="AmmoChest_1x2_1_ico" />
+			<property name="DescriptionKey" value="ammochest_ash_Desc" />
+			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (1).prefab"/>
+			<property name="LootList" value="1001" />
 
-			  <property class="UpgradeBlock">
-		        <property name="ToBlock" value="ammochest_ash_1x2_2"/>
-		        <property name="Item" value="ammochest_ash_1x2_1"/>
-		        <property name="ItemCount" value="1"/>
-		       <property name="UpgradeHitCount" value="6"/>
-	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_wood"/>
-
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="ammochest_ash_1x2_2"/>
+				<property name="Item" value="ammochest_ash_1x2_1"/>
+				<property name="ItemCount" value="1"/>
+				<property name="UpgradeHitCount" value="6"/>
+			</property>
 		</block>
 
 		<block name="ammochest_ash_1x2_2">
+			<property name="Extends" value="ammochest_ash_master"/>
+			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="AmmoChest_1x2_2_ico"/>
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (2).prefab"/>
 			<property name="LootList" value="1002" />
-			<property name="CreativeMode" value="Player" />
-			<property name="Tags" value="door" />
-			<property name="DisplayType" value="blockHardenedMulti" />
-			<property name="Material" value="MwoodReinforced" />
-			<property name="MaxDamage" value="500" />
-			<property name="Shape" value="ModelEntity" />
-			<property name="ModelOffset" value="0,0,0" />
-			<property name="MultiBlockDim" value="1,1,2" />
-			<property name="AllowAllRotations" value="false" />
-			<property name="Path" value="solid" />
-			<property class="RepairItems">
-				<property name="resourceWood" value="50" />
-			</property>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
-			<drop event="Destroy" count="0" />
-			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
-			<drop event="Destroy" name="resourceForgedSteel" count="2,8" tag="salvageHarvest" />
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
-			<property name="EconomicValue" value="500" />
-			<property name="FilterTags" value="floot,ffurniture" />
-			<property name="Place" value="TowardsPlacer" />
-
+			
 			<property class="UpgradeBlock">
 		        <property name="ToBlock" value="ammochest_ash_1x2_3"/>
 		        <property name="Item" value="ammochest_ash_1x2_1"/>
 		        <property name="ItemCount" value="1"/>
-		       <property name="UpgradeHitCount" value="6"/>
-	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_wood"/>
-
-			<property name="ItemTypeIcon" value="explosion"/>
-			<property name="Class" value="CarExplodeLoot" />
-			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-			<property class="Explosion">
-				<property name="ParticleIndex" value="5"/>
-				<property name="RadiusBlocks" value="3"/>
-				<property name="BlockDamage" value="1000"/>
-
-				<property name="RadiusEntities" value="5"/>
-				<property name="EntityDamage" value="400"/>
+				<property name="UpgradeHitCount" value="6"/>
 			</property>
-		      
 		</block>
 
 		<block name="ammochest_ash_1x2_3">
+			<property name="Extends" value="ammochest_ash_master"/>
+			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="AmmoChest_1x2_3_ico"/>
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (3).prefab"/>
 			<property name="LootList" value="1003" />
-			<property name="CreativeMode" value="Player" />
-			<property name="Tags" value="door" />
-			<property name="DisplayType" value="blockHardenedMulti" />
-			<property name="Material" value="MwoodReinforced" />
-			<property name="MaxDamage" value="500" />
-			<property name="Shape" value="ModelEntity" />
-			<property name="ModelOffset" value="0,0,0" />
-			<property name="MultiBlockDim" value="1,2,2" />
-			<property name="AllowAllRotations" value="false" />
-			<property name="Path" value="solid" />
-			<property class="RepairItems">
-				<property name="resourceWood" value="50" />
-			</property>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
-			<drop event="Destroy" count="0" />
-			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
-			<drop event="Destroy" name="resourceForgedSteel" count="2,8" tag="salvageHarvest" />
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
-			<property name="EconomicValue" value="500" />
-			<property name="FilterTags" value="floot,ffurniture" />
-			<property name="Place" value="TowardsPlacer" />
-
 			<property class="UpgradeBlock">
 		        <property name="ToBlock" value="ammochest_ash_1x2_4"/>
 		        <property name="Item" value="ammochest_ash_1x2_1"/>
 		        <property name="ItemCount" value="1"/>
-		       <property name="UpgradeHitCount" value="6"/>>
-	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_wood"/>
-
-			<property name="ItemTypeIcon" value="explosion"/>
-			<property name="Class" value="CarExplodeLoot" />
-			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-			<property class="Explosion">
-				<property name="ParticleIndex" value="5"/>
-				<property name="RadiusBlocks" value="3"/>
-				<property name="BlockDamage" value="1000"/>
-
-				<property name="RadiusEntities" value="5"/>
-				<property name="EntityDamage" value="400"/>
+				<property name="UpgradeHitCount" value="6"/>>
 			</property>
 		</block>
 
 		<block name="ammochest_ash_1x2_4">
+			<property name="Extends" value="ammochest_ash_master"/>
+			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="AmmoChest_1x2_4_ico"/>
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (4).prefab"/>
 			<property name="LootList" value="1004" />
-			<property name="CreativeMode" value="Player" />
-			<property name="Tags" value="door" />
-			<property name="DisplayType" value="blockHardenedMulti" />
-			<property name="Material" value="MwoodReinforced" />
-			<property name="MaxDamage" value="500" />
-			<property name="Shape" value="ModelEntity" />
-			<property name="ModelOffset" value="0,0,0" />
-			<property name="MultiBlockDim" value="1,2,2" />
-			<property name="AllowAllRotations" value="false" />
-			<property name="Path" value="solid" />
-			<property class="RepairItems">
-				<property name="resourceWood" value="50" />
-			</property>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
-			<drop event="Destroy" count="0" />
-			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
-			<drop event="Destroy" name="resourceForgedSteel" count="2,8" tag="salvageHarvest" />
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
-			<property name="EconomicValue" value="500" />
-			<property name="FilterTags" value="floot,ffurniture" />
-			<property name="Place" value="TowardsPlacer" />
-
 			<property class="UpgradeBlock">
 		        <property name="ToBlock" value="ammochest_ash_1x2_5"/>
 		        <property name="Item" value="ammochest_ash_1x2_1"/>
 		        <property name="ItemCount" value="1"/>
-		       <property name="UpgradeHitCount" value="6"/>
-	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_wood"/>
-
-			<property name="ItemTypeIcon" value="explosion"/>
-			<property name="Class" value="CarExplodeLoot" />
-			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-			<property class="Explosion">
-				<property name="ParticleIndex" value="5"/>
-				<property name="RadiusBlocks" value="3"/>
-				<property name="BlockDamage" value="1000"/>
-
-				<property name="RadiusEntities" value="5"/>
-				<property name="EntityDamage" value="400"/>
-			</property>			 
+				<property name="UpgradeHitCount" value="6"/>
+	        </property>
 		</block>
 
 		<block name="ammochest_ash_1x2_5">
+			<property name="Extends" value="ammochest_ash_master"/>
+			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="AmmoChest_1x2_5_ico"/>
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (5).prefab"/>
 			<property name="LootList" value="1005" />
-			<property name="CreativeMode" value="Player" />
-			<property name="Tags" value="door" />
-			<property name="DisplayType" value="blockHardenedMulti" />
-			<property name="Material" value="MwoodReinforced" />
-			<property name="MaxDamage" value="500" />
-			<property name="Shape" value="ModelEntity" />
-			<property name="ModelOffset" value="0,0,0" />
-			<property name="MultiBlockDim" value="1,2,2" />
-			<property name="AllowAllRotations" value="false" />
-			<property name="Path" value="solid" />
-			<property class="RepairItems">
-				<property name="resourceWood" value="50" />
-			</property>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
-			<drop event="Destroy" count="0" />
-			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
-			<drop event="Destroy" name="resourceForgedSteel" count="2,8" tag="salvageHarvest" />
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
-			<property name="EconomicValue" value="500" />
-			<property name="FilterTags" value="floot,ffurniture" />
-			<property name="Place" value="TowardsPlacer" />
-
 			<property class="UpgradeBlock">
 		        <property name="ToBlock" value="ammochest_ash_1x2_6"/>
 		        <property name="Item" value="ammochest_ash_1x2_1"/>
 		        <property name="ItemCount" value="1"/>
 		        <property name="UpgradeHitCount" value="6"/> 
-	         </property>
-			 <property name="CustomUpgradeSound" value="place_block_wood"/>
-
-			<property name="ItemTypeIcon" value="explosion"/>
-			<property name="Class" value="CarExplodeLoot" />
-			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-			<property class="Explosion">
-				<property name="ParticleIndex" value="5"/>
-				<property name="RadiusBlocks" value="3"/>
-				<property name="BlockDamage" value="1000"/>
-
-				<property name="RadiusEntities" value="5"/>
-				<property name="EntityDamage" value="400"/>
-			</property>			 
+	        </property>
 		</block>
 
 		<block name="ammochest_ash_1x2_6">
+			<property name="Extends" value="ammochest_ash_master"/>
+			<property name="CreativeMode" value="Player" />
 			<property name="CustomIcon" value="AmmoChest_1x2_6_ico"/>
 			<property name="DescriptionKey" value="ammochest_ash_Desc" />
 			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (6).prefab"/>
 			<property name="LootList" value="1006" />
-			<property name="CreativeMode" value="Player" />
-			<property name="Tags" value="door" />
-			<property name="DisplayType" value="blockHardenedMulti" />
-			<property name="Material" value="MwoodReinforced" />
-			<property name="MaxDamage" value="500" />
-			<property name="Shape" value="ModelEntity" />
-			<property name="ModelOffset" value="0,0,0" />
-			<property name="MultiBlockDim" value="1,2,2" />
-			<property name="AllowAllRotations" value="false" />
-			<property name="Path" value="solid" />
-			<property class="RepairItems">
-				<property name="resourceWood" value="50" />
-			</property>
-			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
-			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
-			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
-			<drop event="Destroy" count="0"/>
-			<drop event="Harvest" name="resourceWood" count="16,24" tag="salvageHarvest" />
-			<drop event="Destroy" name="resourceForgedSteel" count="2,8" tag="salvageHarvest" />
-			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1" />
-			<property name="EconomicValue" value="500" />
-			<property name="FilterTags" value="floot,ffurniture" />
-			<property name="Place" value="TowardsPlacer" />
-
-			<property name="ItemTypeIcon" value="explosion"/>
-			<property name="Class" value="CarExplodeLoot" />
-			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
-			<property class="Explosion">
-				<property name="ParticleIndex" value="5"/>
-				<property name="RadiusBlocks" value="3"/>
-				<property name="BlockDamage" value="1000"/>
-
-				<property name="RadiusEntities" value="5"/>
-				<property name="EntityDamage" value="400"/>
-			</property>
 		</block>		
 	</append>
     
