@@ -1,13 +1,13 @@
 Key,English,Russian
 
 
-ammochest_ash_Desc,"Ammo Chest from Ashan's Team","Ящик для патронов от Ашанов. Ящик можно проапгрейдить и увеличить количество слотов хранения, для этого вам понадобится 100 дерева, 20 стали и хороший молоток."
-ammochest_ash_1x2_1,"Ammo Chest from Ashan's Team Chest 10x1",Ашанский ящик для патронов 10x1
-ammochest_ash_1x2_2,"Ammo Chest from Ashan's Team Chest 10x2",Ашанский ящик для патронов 10x2
-ammochest_ash_1x2_3,"Ammo Chest from Ashan's Team Chest 10x3",Ашанский ящик для патронов 10x3
-ammochest_ash_1x2_4,"Ammo Chest from Ashan's Team Chest 10x4",Ашанский ящик для патронов 10x4
-ammochest_ash_1x2_5,"Ammo Chest from Ashan's Team Chest 10x5",Ашанский ящик для патронов 10x5
-ammochest_ash_1x2_6,"Ammo Chest from Ashan's Team Chest 10x6",Ашанский ящик для патронов 10x6
+ammochest_ash_Desc,"Ammo Chest from Ashan's Team","Ящик для патронов от Ашанов. Ящик можно проапгрейдить и увеличить количество слотов хранения, для этого вам понадобится 100 дерева, 20 стали и хороший молоток. \n ВНИМАНИЕ! \n Ящик взрывоопасен! Такое случается если не аккуратно обращаться с ящиком для патронов. Соблюдайте технику безопасности. Не контовать. не ронять, не бить и не стредлять по ящику. Так же его можно укрыть в бетонные или каменные блоки, что защитит рядом стоящие постройки."
+ammochest_ash_1x2_1,"Ammo Chest from Ashan's Team Chest 32",Ашанский ящик 32
+ammochest_ash_1x2_2,"Ammo Chest from Ashan's Team Chest 48",Ашанский ящик 48
+ammochest_ash_1x2_3,"Ammo Chest from Ashan's Team Chest 64",Ашанский ящик 64
+ammochest_ash_1x2_4,"Ammo Chest from Ashan's Team Chest 80",Ашанский ящик 80
+ammochest_ash_1x2_5,"Ammo Chest from Ashan's Team Chest 96",Ашанский ящик 96
+ammochest_ash_1x2_6,"Ammo Chest from Ashan's Team Chest 120",Ашанский ящик 120
 resourceChestHinge,Chest Hinge,Петли Ашанского ящика
 resourceWoodPlankChest,Chest Wood Plank,Деревянные части Ашанского ящика
 resourceMetalChestParts,Chest Metal Parts,Части Ашанского ящика

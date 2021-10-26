@@ -9,7 +9,7 @@
 			<property name="Tags" value="door" />
 			<property name="DisplayType" value="blockHardenedMulti" />
 			<property name="Material" value="MwoodReinforced" />
-			<property name="MaxDamage" value="500" />
+			<property name="MaxDamage" value="500" />  <!-- XP chest -->
 			<property name="Shape" value="ModelEntity" />
 			<property name="ModelOffset" value="0,0,0" />
 			<property name="MultiBlockDim" value="1,1,2" />
@@ -19,16 +19,19 @@
 			<property name="ItemTypeIcon" value="explosion"/>
 			<property name="Class" value="CarExplodeLoot" />
 			<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+		<!-- Exploid settings -->	
 			<property class="Explosion">
 				<property name="ParticleIndex" value="5"/>
 				<property name="RadiusBlocks" value="3"/>
-				<property name="BlockDamage" value="1000"/>
+				<property name="BlockDamage" value="1000"/> <!-- Damage after exploid for Blocks -->
 				<property name="RadiusEntities" value="5"/>
-				<property name="EntityDamage" value="400"/>
+				<property name="EntityDamage" value="400"/> <!-- Damage after exploid for Entity -->
 			</property>
+		<!-- Repair settings -->	
 			<property class="RepairItems">
 				<property name="resourceWood" value="50" />
 			</property>
+			
 			<drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble" />
 			<drop event="Harvest" name="" count="0" tag="salvageHarvest" />
 			<drop event="Harvest" name="resourceWood" count="2,10" tag="allHarvest" />
