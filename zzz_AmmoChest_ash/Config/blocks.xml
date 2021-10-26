@@ -3,10 +3,8 @@
 	<append xpath="/blocks">
 		<block name="ammochest_ash_master">
 			<property name="CustomIcon" value="AmmoChest_1x2_1_ico" />
-			<property name="DescriptionKey" value="ammochest_ash_Desc" />
-			<property name="Model" value="#@modfolder:Resources/AmmoChest 1x2.ash?AmmoChest_1x2 (1).prefab"/>
-			<property name="LootList" value="1001" />
-			
+			<property name="DescriptionKey" value="ammochest_ash_Desc" />	
+			<property name="LootList" value="1001" />			
 			<property name="CreativeMode" value="None" />
 			<property name="Tags" value="door" />
 			<property name="DisplayType" value="blockHardenedMulti" />
